@@ -1,8 +1,10 @@
-# ElegWeather Conky 
+# ElegWeather Conky
 
 Simple widget which displays time and basic weather info.
 
 Created because yahoo discontinued their weather api services and many conky weather widgets are not working because of it.
+
+![Preview](preview.png)
 
 # Getting Started
 
@@ -16,7 +18,7 @@ Created because yahoo discontinued their weather api services and many conky wea
 
 
 ## Configuration
-Once you get it replace lines: 
+Once you get api key and city id replace lines: 
 ```bash
 api_key=<YOUR_API_KEY>
 city_id=<YOUR_CITY_ID>
