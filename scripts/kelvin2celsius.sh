@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 kelvin=$(cut -d. -f1 <<< $1)
 base=273

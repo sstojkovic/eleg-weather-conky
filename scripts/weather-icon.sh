@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 theme=$1
 weather_code=$2

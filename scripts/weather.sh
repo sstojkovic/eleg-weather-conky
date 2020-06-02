@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 api_key=<YOUR_API_KEY>
 city_id=<YOUR_CITY_ID>
