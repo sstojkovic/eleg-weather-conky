@@ -1,7 +1,6 @@
 conky.config = {
 	alignment = 'top_middle',
   background = false,
-  border_margin = 5,
   border_width = 5,
   cpu_avg_samples = 2,
   default_color = '#ffffff',
@@ -14,7 +13,6 @@ conky.config = {
   draw_shades = false,
   gap_x = 0,
   gap_y = 100,
-  max_specials = 1024,
   max_user_text = 10000,
   maximum_width = 900,
   net_avg_samples = 2,
