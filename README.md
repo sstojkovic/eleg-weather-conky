@@ -12,9 +12,10 @@ Created because yahoo discontinued their weather api services and many conky wea
 
 - Installed conky
 - Installed curl command-line tool
+- Installed jq (for parsing json)
 - Installed fonts located in `fonts/` folder
 - Free API key (you can get it once you register on http://openweathermap.org/)
-- City ID (also can be found on already mentionted website, there is a search box on homepage)
+- City ID (also can be found on already mentioned website, there is a search box on homepage)
 
 
 ## Configuration

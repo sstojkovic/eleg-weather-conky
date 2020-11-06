@@ -1,46 +1,6 @@
+require 'config';
 
-alignment top_middle
-background no
-border_margin 5
-border_width 5
-cpu_avg_samples 2
-default_color ffffff		#
-default_outline_color 000000 	# 
-default_shade_color 000000	#
-double_buffer yes
-draw_borders no
-draw_graph_borders no
-draw_outline no
-draw_shades no
-gap_x 0
-gap_y 100
-max_specials 1024
-max_user_text 10000
-maximum_width 900
-minimum_size 0 0
-net_avg_samples 2
-no_buffers yes
-override_utf8_locale yes
-own_window yes
-own_window_colour 000000
-own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
-own_window_transparent yes
-own_window_type normal 	## normal
-pad_percents 2			
-short_units yes			
-stippled_borders 3
-text_buffer_size 8000
-total_run_times 0
-update_interval 2.0
-uppercase no
-use_spacer right
-use_xft yes
-xftalpha 1
-
-own_window_argb_value 0
-own_window_argb_visual yes
-
-TEXT
+conky.text = [[
 ${goto 90}${voffset 25}${font adele:size=25} ${time %A, %d %B}
 ${goto 90}${voffset -}${font LG Weather_Z:size=100}${time %H:%M}${image ./icons/white/line.png -p 354,23 -s 3x189}
 ${offset 370}${voffset -183}${font ADELE:size=22}
@@ -97,5 +57,4 @@ ${image ./icons/white/map-marker.png -p 463,168 -s 16x16}
 ${font Roboto Light:size=12}${offset 485}${voffset -45}${execi 300 cat ~/.cache/eleg-weather.json | jq -r '.name'}
 
 ${goto 285}${voffset -35}${font adele:bold:size=25}${time %p}
-
-
+]];
